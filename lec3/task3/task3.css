@@ -1,0 +1,18 @@
+.z{
+    width: 110%;
+    height: 550px;
+background-image: url(img-task/banner_img_01.jpg);
+background-repeat: no-repeat;
+background-position: top right;
+background-attachment: fixed;
+background-size: contain;
+background-color: #efefef;
+}
+.y{
+    width: 100%;
+    width: 600px;
+    color: green;
+}
+.l{
+    color: black;
+}
