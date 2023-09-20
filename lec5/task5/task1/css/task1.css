@@ -1,0 +1,322 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+}
+.cl{
+    clear: both;
+}
+@font-face {
+    font-family: fontx ;
+    src: url(../fonts/PicturamaFounder_PERSONAL_USE_ONLY.otf);
+}
+@font-face {
+    font-family: fonty;
+    src: url(../fonts/ninjabot3dital.ttf);
+}
+.box{
+    width: 100%;
+    height: 900px;
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.box .inee h1{
+    width: 30%;
+    color: rgb(234 45 128 / 75%);
+    float: left;
+    margin: 15px 50px;
+    /* font-family: 'Times New Roman', Times, serif; */
+    /* font-family: 'Dancing Script', cursive;
+    font-family: 'Roboto Slab', serif; */
+    font-family: fontx;
+    font-size: 40px;
+}
+
+.box .text{
+    float: right;
+    margin-left: 3%;
+    margin-top: 10px;
+padding-right: 50px;
+font-weight: bolder;
+}
+.box .text i{
+    margin-top: 14px;
+    color: rgb(234 45 128 / 75%);
+}
+.box .img{
+ float: right;
+ background-size: cover;
+ background-attachment: fixed;
+}
+.box .img h1{
+    width: 30%;
+    float: left;
+   
+}
+.box .gym h1{
+color: #fff;
+float: left;
+    margin: 90px 50px 0 50px;
+    font-size: 40px;
+    padding-left: 40px;
+} 
+.box .gym h2{
+    color: rgb(234 45 128 / 75%);
+
+    float: left;
+        margin: 20px 50px ;
+        font-size: 40px;
+        padding-left: 40px;
+    } 
+.box .gym p{
+    width: 30%;
+color: #fff;
+    font-size: 18px;
+    float: left;
+        margin: 5px 30px ;
+        padding-left: 60px;
+    } 
+    .box .gym .read{
+        width: 15%;
+        border: 1px solid rgb(234 45 128 / 75%);
+        color: rgb(234 45 128 / 75%);
+        margin-left: 90px;
+        margin-top: 40px;
+        padding: 1px;
+        float: left;
+        text-align: center;
+        /* font-size: 18px; */
+            /* margin: 5px 50px ;
+            padding-left: 40px; */
+        } 
+        .box .le h1{
+            color: black;
+text-align: center;
+font-size: 40px;
+padding-top: 100px;
+/* margin-top: 100px; */
+}
+        .box .le p{
+            color: rgb(234 45 128 / 75%);
+            text-align: center;
+            padding-bottom: 40px;
+            /* margin: 100px  auto; */
+        }
+     .box  .icon{
+width: 30%;
+height: 450px;
+border: 5px solid rgb(236, 232, 232);
+float: left;
+margin-left: 2.5%;
+padding: 15px;      
+border-radius: 15px;
+text-shadow: 10px 20px 14px rgb(114, 107, 107) ;
+  }
+  .box .more{
+    width: 13%;
+    color: rgb(234 45 128 / 75%);
+    border: 1px solid rgb(234 45 128 / 75%);
+    margin: 50px auto;
+    text-align: center;
+  }
+  .wom{
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/disco.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 180px;
+    padding: 1px;
+  }
+  .wrt{
+    width: 65%;
+    color: #ffffffe3;
+    padding: 50px;
+    margin: 80px auto;
+    text-align: center;
+  }
+  .wrt h3{
+    width: 25%;
+    color: rgb(234 45 128 / 75%);
+    border: 1px solid rgb(234 45 128 / 75%);
+margin: 50px auto;
+padding: 15px;
+      }
+      .wh{
+        width: 100%;
+        height: 500px;
+        background-color: rgb(252, 252, 252);
+      }
+      .wh .hed{
+        padding: 15px;
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+      }
+      .bor{
+        width: 30%;
+        height: 570px;
+        border: 1px solid rgb(234 45 128 / 75%);
+background-color:rgb(234 45 128 / 75%) ;
+padding: 1px;
+margin-left: 60px;
+float: left;
+      }
+   .bor .name{
+    width: 90%;
+    font-size: 20px;
+    color: #fff;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-top: 7%;
+    margin-left: 15px;
+   }   
+   .name1{
+    width: 90%;
+    font-size: 20px;
+    color: #fff;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    padding-left: 20px;
+    margin-top: 7%;
+    margin-left: 15px;
+    padding-bottom: 40px;
+    padding-top: 25px;
+   }
+   .send{
+    width: 70%;
+    color: #fff;
+    background-color:#efb891;
+    margin: 50px auto;
+    border: 1px solid #efb891;
+    border-radius: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+   }   
+   .z{
+    margin-top: 80px;
+    float: right;
+   }
+   .e{
+    width: 100%;
+    height: 580px;
+background-image: url(../img/cli.jpg);
+background-size: cover;
+background-attachment: fixed;
+    margin-top: 120px;
+    padding: 1px;
+   }
+   .pe{
+    margin-top: 80px;
+    margin-bottom: 60px;
+text-align: center;
+color: #fff;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 20px;
+
+   }
+   .duis{
+    width: 55%;
+background-color: #fff; 
+height: 200px;
+margin:  50px auto;
+padding: 1px;
+}
+.duis1{
+    text-align: center;
+    margin: 5px auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    color: #0c0b0ba8;
+    padding: 1px;
+}
+/* .n1{
+    width: 4%;
+    height: 30px;
+    background-color: #0c0b0ba8;
+    margin-left: 200px auto;
+    float: left;
+    border: 3px solid white;
+    margin-top: 80px;
+    border-radius: 50%;
+} */
+.bl{
+    width: 100%;
+    height: 450px;
+    background-color:#000000e8;
+    margin-top: 230px;
+    padding: 1px;
+}
+.bl .bl1{
+    color: #ccc3c3;
+    text-align: center;
+    margin-top: 90px ;
+}
+.bl .bl2{
+    /* width: 70%; */
+    color: #f1cd9d;
+    text-align: center;
+    /* margin-top: 90px ; */
+}
+.bl .bl3{
+    width: 43%;
+    text-align: center;
+    color: #b5b4b0;
+    margin-left: 380px;
+    margin-top: 30px;
+
+}
+.ee{
+    width: 50%;
+height: 50px;
+background-color: #fff;
+border-radius: 25px;
+margin: 50px auto;
+
+}
+.ee .ee1{
+    padding: 1px 1px 7px 15px;
+    color: #0c0b0ba8;
+    float: left;
+    
+}
+.ee .ee2{
+    width: 27%;
+    height: 40px;
+    background-color: #f1cd9d;
+    border-radius: 25px;
+    float: right;
+    margin-right: 5px;
+    margin-top: 5px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+/* padding-bottom: 100px; */
+color: #fff;
+}
+.ee2 p{
+    
+padding-bottom: 200px;
+margin: 10px;
+}
+.fof{
+    width: 100%;
+    height: 2px;
+    background-color: #2a2a2ad4;
+
+}
+.fof1{
+    width: 100%;
+    height: 90px;
+    background-color: #000000e8;
+    padding: 1px;
+}
+.fof12{
+    text-align: center;
+    color: #f4f4f3b8;
+}
